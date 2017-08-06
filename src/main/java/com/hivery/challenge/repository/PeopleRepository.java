@@ -16,7 +16,7 @@ import static com.mongodb.client.model.Projections.*;
 public class PeopleRepository {
     @Autowired
     MongoDatabase mongoDatabase;
-    private static final String PEOPLE_DOCUMENT = "PEOPLE_DOCUMENT";
+    private static final String PEOPLE_DOCUMENT = "people";
 
 
     public Document getFavoriteFoodsOfPeopleByIndex(int index){
